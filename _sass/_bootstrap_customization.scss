@@ -1,3 +1,21 @@
 // This is the place to place Bootstrap-related CSS customizations.
 // As example you can start by importing the _bootswatch.scss file from one of the
 // theme provided by https://bootswatch.com .
+
+body {
+    background-color: #f8f9fa;
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+.navbar-csm a.navbar-brand {
+    color: #66BB6A;
+    font-size: 2rem;
+    font-weight: bold;
+
+    &:hover {
+        color: hsl(123, 38%, 50%);
+    }
+}
